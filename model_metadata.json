@@ -1,0 +1,48 @@
+{
+  "model_name": "Random Forest Classifier",
+  "target": "Exited",
+  "features": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceToSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction"
+  ],
+  "categorical_features": [
+    "Geography",
+    "Gender"
+  ],
+  "numeric_features": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceToSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction"
+  ],
+  "threshold_precision_constrained": 0.5373742078456715,
+  "test_roc_auc": 0.8595051137424019,
+  "test_precision_at_threshold": 0.7,
+  "test_recall_at_threshold": 0.5675675675675675,
+  "test_f1_at_threshold": 0.6268656716417911,
+  "test_accuracy_at_threshold": 0.8625,
+  "dataset_rows": 10000,
+  "test_rows": 2000,
+  "random_state": 42,
+  "note": "Rebuilt from the supplied European_Bank.csv for deployment. Metrics can differ from earlier draft values."
+}
